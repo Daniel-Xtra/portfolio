@@ -1,0 +1,64 @@
+.responsive{
+  max-width: 100%;
+
+}
+#row{
+  padding-top: 150px;
+  padding-bottom: 20px;
+}
+#row2{
+  padding-top: 200px;
+  padding-bottom: 20px;
+}
+
+body{
+  color: black;
+  /* height: 100%; */
+}
+
+h2{
+  font-weight: 700;
+  font-size: 45px;
+}
+
+h3{
+  font-weight: 700;
+  font-size: 35px;
+}
+
+h5{
+  font-size: x-large;
+}
+
+#bottom{
+  margin-top: 50px;
+}
+
+.fluid{
+  background-color: #f8f9fa;
+  height: 100vh;
+}
+
+
+@media(max-width: 767px) {
+
+  h2{
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  h3{
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  #row2{
+    padding-top:40px;
+    padding-bottom: 20px;
+  }
+
+  #bottom{
+    margin-top: 40px;
+  }
+
+}

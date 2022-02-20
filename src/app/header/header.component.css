@@ -1,0 +1,33 @@
+.navbar-brand {
+  font-family:  Oxygen;
+  font-weight: 900;
+  font-size: 35px;
+}
+
+
+.navbar-brand img{
+  width: 1.8em;
+  height: 1.5em;
+}
+.navbar{
+  background-color: #f8f9fa !important;
+  /* bottom: 30%; */
+}
+
+.navbar-toggler{
+  color:#545b62;
+  outline:none !important;
+  box-shadow: none !important;
+  border-color: transparent !important;
+
+}
+
+.fa-2x{
+  font-size: 1em;
+}
+
+.navbar-toggler:active,.navbar-toggler:focus{
+  outline:none !important;
+  box-shadow: none !important;
+  border-color: transparent !important;
+}
